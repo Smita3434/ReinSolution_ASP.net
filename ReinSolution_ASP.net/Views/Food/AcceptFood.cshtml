@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AcceptFood</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+    <table class="table table-bordered table-hover">
+        <tr>
+            <td>
+                <label>Enter the Name</label>
+            </td>
+            <td>
+                <input type="text" id="fname" name="fname" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Enter the Phone No</label>
+            </td>
+            <td>
+                @Html.TextBox("PhoneNo")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>South Indian</label>
+            </td>
+            <td>
+                @Html.TextBox("PhoneNo")
+            </td>
+
+        </tr>
+    </table>
+            }
+    </body>
+</html>
